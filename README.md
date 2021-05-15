@@ -16,8 +16,14 @@
 First you must clone the repo onto your machine:
 
 - In your terminal, find a place you would like to store this repo and run this line: `git clone https://github.com/Mleng89/data-structures.git`
+
+Running it after cloning:
 - In your terminal you can then run: `cd data-structures` and `code .` to open it in your favorite IDE!
+
+Installing dependencies:
 - Now when the folder is open, run `yarn install` to install Jest as this will be using Jest to run tests!
+
+Running the tests:
 - In order for you to run tests, you can enter `yarn test`!
 
 ### Feel free to connect with me if you would like to collaborate and discuss anything!
