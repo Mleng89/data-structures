@@ -26,8 +26,11 @@ Installing dependencies:
 Running the tests:
 - In order for you to run tests, you can enter `yarn test`!
 
-### Feel free to connect with me if you would like to collaborate and discuss anything!
 
-:link: [LinkedIn](https://www.linkedin.com/in/matthew-leng/)
+### You may also open an issue if you would like to have a discussion or if you have any feedback!
+
+## Please feel free to connect with me: 
+
+:link: [LinkedIn](https://www.linkedin.com/in/matthew-leng/) (Please add a note before you connect so I know you are not a bot!)
 
 :bird: [Twitter](https://twitter.com/matthewleng)
