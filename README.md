@@ -28,6 +28,6 @@ Running the tests:
 
 ### Feel free to connect with me if you would like to collaborate and discuss anything!
 
-[LinkedIn](https://www.linkedin.com/in/matthew-leng/)
+:link: [LinkedIn](https://www.linkedin.com/in/matthew-leng/)
 
-[Twitter](https://twitter.com/matthewleng)
+:bird: [Twitter](https://twitter.com/matthewleng)
