@@ -2,7 +2,7 @@
 
 ## My todo list:
 
-- [ ] Linked Lists
+- [x] Linked Lists
 - [ ] Doubly Linked Lists
 - [ ] Stacks and Queues
 - [ ] Trees
