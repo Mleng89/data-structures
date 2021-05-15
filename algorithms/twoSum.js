@@ -12,6 +12,7 @@ function twoSum(target, array) {
 			return [array[i], array[j]];
 		}
 	}
+	return 'No pairs';
 }
 
 module.exports = twoSum;
