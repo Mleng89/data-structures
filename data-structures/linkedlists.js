@@ -67,3 +67,5 @@ const months = new LinkedList();
 months.addToTail('December');
 
 console.log(typeof months);
+
+module.exports = months;
