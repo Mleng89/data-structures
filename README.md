@@ -1,4 +1,4 @@
-# My journey to understanding data structures and algorithms better!
+# My journey to understanding data structures and algorithms better! :file_folder:
 
 ## My todo list:
 
