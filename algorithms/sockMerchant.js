@@ -14,6 +14,7 @@ Output : 2
 */
 
 //NAIVE SOLUTION // BRUTE FORCE
+/* 
 function sockMerchant(n, arr) {
 	//EDGE CASES
 	if (arr.length !== n) return 0;
@@ -29,6 +30,23 @@ function sockMerchant(n, arr) {
 		}
 	}
 	//RETURN PAIRS
+	return pairs;
+}
+*/
+
+//HASH TABLE -- LOOK UP
+function sockMerchant(n, arr) {
+	//EDGE CASE
+	if (arr.length !== n) return 0;
+	let pairs = 0;
+	const sockHash = arr.reduce((a, b) => {
+		!a[b] ? (a[b] = 1) : (a[b] += 1);
+		return a;
+	}, {});
+
+	for (let key in sockHash) {
+		pairs += Math.floor(sockHash[key] / 2);
+	}
 	return pairs;
 }
 
