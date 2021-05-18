@@ -7,7 +7,7 @@
 - [ ] Stacks and Queues
 - [ ] Trees
 - [ ] Graphs
-- [ ] Hash Tables
+- [x] Hash Tables
 - [ ] Strings
 - [ ] Arrays
 
