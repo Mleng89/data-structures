@@ -14,9 +14,11 @@ Output : 2
 */
 
 //NAIVE SOLUTION // BRUTE FORCE
-/* 
+/*
+ */
 function sockMerchant(n, arr) {
 	//EDGE CASES
+	console.time('Comparsion Loop');
 	if (arr.length !== n) return 0;
 	//SORT ARRAY
 	arr.sort((a, b) => a - b);
@@ -29,14 +31,17 @@ function sockMerchant(n, arr) {
 			i++;
 		}
 	}
+	console.timeEnd('Comparsion Loop');
 	//RETURN PAIRS
 	return pairs;
 }
-*/
+//space o(1) time o(n)
 
 //HASH TABLE -- LOOK UP
-function sockMerchant(n, arr) {
+
+function sockMerchantTwo(n, arr) {
 	//EDGE CASE
+	console.time('HASH');
 	if (arr.length !== n) return 0;
 	let pairs = 0;
 	const sockHash = arr.reduce((a, b) => {
@@ -47,7 +52,34 @@ function sockMerchant(n, arr) {
 	for (let key in sockHash) {
 		pairs += Math.floor(sockHash[key] / 2);
 	}
+	console.timeEnd('HASH');
 	return pairs;
 }
 
+// space o(n) time o(n)
+
+// sockMerchant(
+// 	100,
+// 	[
+// 		1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1,
+// 		5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4,
+// 		1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2,
+// 		4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1,
+// 		2, 4, 1, 5
+// 	]
+// );
+
+// sockMerchantTwo(
+// 	100,
+// 	[
+// 		1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1,
+// 		5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4,
+// 		1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2,
+// 		4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1, 2, 4, 1, 5, 1,
+// 		2, 4, 1, 5
+// 	]
+// );
+
+// sockMerchant(2, [1, 1]);
+sockMerchantTwo(2, [1, 1]);
 module.exports = sockMerchant;
