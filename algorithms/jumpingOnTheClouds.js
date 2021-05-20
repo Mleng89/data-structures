@@ -17,7 +17,6 @@ function jumpingOnClouds(c) {
 	let jumps = 0;
 	//loop the array of clouds
 	if (c.length === 2 || c.length === 3) return 1;
-
 	let pointA = 0;
 	let pointB = 1;
 	while (pointA !== c.length - 1 || pointB < c.length - 1) {
@@ -37,9 +36,11 @@ function jumpingOnClouds(c) {
 			}
 		}
 	}
-
 	//return count variable
 	return jumps;
 }
+
+//SPACE 0(1) is constant
+//TIME 0(N) is linear
 
 module.exports = jumpingOnClouds;
