@@ -6,7 +6,7 @@ function fibonacci(num) {
 
 //DYNAMIC OR USING MEMOIZATION
 function fibonacciMemo(num, memo) {
-	memo = memo || {};
+	memo = {};
 
 	if (memo[num]) return memo[num];
 	if (num <= 2) return 1;
