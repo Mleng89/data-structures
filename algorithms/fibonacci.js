@@ -14,3 +14,6 @@ function fibonacciMemo(num, memo) {
 	return (memo[num] =
 		fibonacciMemo(num - 1, memo) + fibonacciMemo(num - 2, memo));
 }
+
+module.exports = fibonacci;
+module.exports = fibonacciMemo;
