@@ -19,6 +19,7 @@
 -   [x] Power Of (3)
 -   [x] Can be Equal
 -   [x] Jumping on the Clouds
+-   [x] Defanging IP
 
 ## If you would like to run this repo on your machine:
 
