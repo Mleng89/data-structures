@@ -17,7 +17,7 @@ n = 10 output 3
 Recursion
 */
 function minStepsToOne(n) {
-	if (n === 1) return 0;
+	if (n === 0) return 0;
 	//subtract 1
 	let steps = minStepsToOne(n - 1);
 	//divide 2
@@ -32,9 +32,9 @@ function minStepsToOne(n) {
 	}
 	return steps + 1;
 }
-
-console.log(minStepsToOne(100));
-
+console.time('RECURSION');
+console.log(minStepsToOne(14));
+console.timeEnd('RECURSION');
 /*
 Memoization
 */
@@ -61,5 +61,59 @@ function minStepsToOneM(n) {
 	// console.log('what is in my memo', memo);
 	return memo[n];
 }
+console.time('MEMOIZATION');
+console.log(minStepsToOneM(100));
+console.timeEnd('MEMOIZATION');
 
-console.log(minStepsToOneM(10));
+/*
+TABULATION
+*/
+
+function minStepsToOneT(n) {
+	let result = new Array(n + 1);
+
+	//BASE CASE SIMILAR TO IF N === 1 RETURN 0
+	result[1] = 0;
+	for (let i = 2; i < result.length; i++) {
+		//subtract 1
+		let steps = result[i - 1];
+
+		//divide 2
+		if (i % 2 === 0) {
+			let div2 = result[i / 2];
+			steps = Math.min(steps, div2);
+		}
+		if (i % 3 === 0) {
+			let div3 = result[i / 3];
+			steps = Math.min(steps, div3);
+		}
+		result[i] = steps + 1;
+	}
+	// console.log(result);
+	return result[n];
+}
+console.time('TABULATION');
+console.log(minStepsToOneT(100));
+console.timeEnd('TABULATION');
+
+let result = new Array(5 + 1);
+console.log('my result before', result);
+//BASE CASE SIMILAR TO IF N === 1 RETURN 0
+result[1] = 0;
+for (let i = 2; i < result.length; i++) {
+	//subtract 1
+	let steps = result[i - 1];
+
+	//divide 2
+	if (i % 2 === 0) {
+		let div2 = result[i / 2];
+		steps = Math.min(steps, div2);
+	}
+	if (i % 3 === 0) {
+		let div3 = result[i / 3];
+		steps = Math.min(steps, div3);
+	}
+	result[i] = steps + 1;
+}
+
+console.log('what is my result', result[5]);
