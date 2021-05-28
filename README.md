@@ -20,6 +20,7 @@
 -   [x] Can be Equal
 -   [x] Jumping on the Clouds
 -   [x] Defanging IP
+-   [x] Minimum Steps to One
 
 ## If you would like to run this repo on your machine:
 
