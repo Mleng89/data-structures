@@ -95,25 +95,3 @@ function minStepsToOneT(n) {
 console.time('TABULATION');
 console.log(minStepsToOneT(100));
 console.timeEnd('TABULATION');
-
-let result = new Array(5 + 1);
-console.log('my result before', result);
-//BASE CASE SIMILAR TO IF N === 1 RETURN 0
-result[1] = 0;
-for (let i = 2; i < result.length; i++) {
-	//subtract 1
-	let steps = result[i - 1];
-
-	//divide 2
-	if (i % 2 === 0) {
-		let div2 = result[i / 2];
-		steps = Math.min(steps, div2);
-	}
-	if (i % 3 === 0) {
-		let div3 = result[i / 3];
-		steps = Math.min(steps, div3);
-	}
-	result[i] = steps + 1;
-}
-
-console.log('what is my result', result[5]);
