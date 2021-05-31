@@ -95,3 +95,7 @@ function minStepsToOneT(n) {
 console.time('TABULATION');
 console.log(minStepsToOneT(100));
 console.timeEnd('TABULATION');
+
+module.exports = minStepsToOne;
+module.exports = minStepsToOneM;
+module.exports = minStepsToOneT;
