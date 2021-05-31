@@ -38,8 +38,9 @@ console.timeEnd('RECURSION');
 /*
 Memoization
 */
-let memo = {};
+
 function minStepsToOneM(n) {
+	let memo = {};
 	if (n in memo) {
 		return memo[n];
 	}
@@ -93,7 +94,7 @@ function minStepsToOneT(n) {
 	return result[n];
 }
 console.time('TABULATION');
-console.log(minStepsToOneT(100));
+console.log(minStepsToOneT(1000));
 console.timeEnd('TABULATION');
 
 module.exports = minStepsToOne;
