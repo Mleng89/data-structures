@@ -5,7 +5,7 @@
 -   [x] Linked Lists
 -   [ ] Doubly Linked Lists
 -   [ ] Stacks and Queues
--   [ ] Trees
+-   [x] Trees
 -   [ ] Graphs
 -   [x] Hash Tables
 -   [ ] Strings
