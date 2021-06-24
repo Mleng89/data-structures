@@ -21,6 +21,7 @@
 -   [x] Jumping on the Clouds
 -   [x] Defanging IP
 -   [x] Minimum Steps to One
+-   [x] Roman to Integer
 
 ## If you would like to run this repo on your machine:
 
