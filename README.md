@@ -22,6 +22,7 @@
 -   [x] Defanging IP
 -   [x] Minimum Steps to One
 -   [x] Roman to Integer
+-   [x] Integer to Roman
 
 ## If you would like to run this repo on your machine:
 
