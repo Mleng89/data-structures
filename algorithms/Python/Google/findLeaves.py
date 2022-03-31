@@ -25,6 +25,8 @@ class TreeNode:
         self.left = left
         self.right = right
 """
+
+
 class TreeNode:
     def __init__(self, value=0, left=None, right=None):
         self.value = value
@@ -49,31 +51,32 @@ def findLeaves(root):
     ans = []
     tmp_leaves = []
     prev_parent = None
-    
+
     COUNT = 0
+
     def dfs(node):
         if node is None:
             return None
-        
+
         # node.value = 2, node.left.value = 4
         left_node, right_node = None, None
         if node.left is not None:
             left_node = dfs(node.left)
-        
+
         if node.right is not None:
             right_node = dfs(node.right)
 
-        if (left_node is None and right_node is None):
+        if left_node is None and right_node is None:
             tmp_leaves.append(node.value)
             return node
-    
+
         if right_node and right_node.left is None and right_node.right is None:
-            print('count', COUNT)
+            print("count", COUNT)
             print(f"REMOVE {right_node} from", node.value)
             node.left = None
             node.right = None
         if left_node and left_node.left is None and left_node.right is None:
-            print('count', COUNT)
+            print("count", COUNT)
             print(f"REMOVE {left_node} from", node.value)
             node.left = None
             node.right = None
@@ -96,7 +99,6 @@ def findLeaves(root):
     ans.append(tmp_leaves)
     ans.append([root.value])
     return ans
-
 
 
 """
@@ -124,5 +126,5 @@ test_tree_node2.right = test_tree_node5
 # test_tree_node4.left=test_tree_node8
 
 
-print('Solution ->', findLeaves(test_tree_root))
+print("Solution ->", findLeaves(test_tree_root))
 ## END - EXAMPLE 1
