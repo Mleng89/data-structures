@@ -43,8 +43,17 @@ def bfs(node):
     return result
 
 
+holder = []
+
+
 def dfsPre(node):
-    ...
+    if node is None:
+        return
+    holder.append(node.value)
+    dfsPre(node.left)
+    dfsPre(node.right)
+
+    return holder
 
 
 def dfsPost(node):
@@ -59,7 +68,7 @@ print(bfs(treeNode))
 # [4,2,5,1,3,7,6,8]
 print(dfsPre(treeNode))
 # [4,2,1,3,5,7,6,8]
-print(dfsIn(treeNode))
+# print(dfsIn(treeNode))
 # [1,2,3,4,5,6,7,8]
-print(dfsPost(treeNode))
+# print(dfsPost(treeNode))
 # [1,3,2,6,8,7,5,4]
