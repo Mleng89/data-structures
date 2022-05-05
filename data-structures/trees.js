@@ -85,7 +85,9 @@ function bfs(node) {
 //PRE-ORDER DEPTH first traversal: [4,2,1,3,5,7,6,8]
 let resultPre = [];
 function dfsPre(node) {
-	if (node === null) {
+	// can do optional chaining
+	//node?.value === undefined
+	if (node == null) {
 		return;
 	}
 
@@ -125,6 +127,6 @@ function dfsPost(node) {
 }
 
 // console.log(bfs(treeNode)); //[4,2,5,1,3,7,6,8]
-// console.log(dfsPre(treeNode)); //[4,2,1,3,5,7,6,8]
+console.log(dfsPre(treeNode)); //[4,2,1,3,5,7,6,8]
 // console.log(dfsIn(treeNode)); //[1,2,3,4,5,6,7,8]
 // console.log(dfsPost(treeNode)); //[1,3,2,6,8,7,5,4]
