@@ -29,12 +29,13 @@ j = 0, 30
 def meetingRoom(meetingTimes):
     meetingRooms = 0
     for i, time in enumerate(meetingTimes):
+        print('what is this', meetingTimes[i-1][1])
         # TODO: review to make more dynamic
         start_time = time[0]
         if i == 0:
             meetingRooms += 1
         elif meetingTimes[i-1][1] > start_time:
-            # print('what is this', meetingTimes[i-1][1])
+
             # When less than or equal to -> are values are the same?
             meetingRooms += 1
             # Previous value at end_time > next start_time? if so, meetingRooms += 1

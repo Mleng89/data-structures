@@ -1,0 +1,75 @@
+Searching word
+Given m x n grid of characters:
+-m x n will be input called board
+-given string to look for
+
+-search to determine if it exists
+
+Example:
+Input: board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
+Output: true
+
+Output - boolean: true if exists and false if it does not exist
+
+"ABCCED"
+[
+[A B C E]
+[S F C S]
+[A D E E]
+]
+
+Queue: ['A','B','C','C', 'E', 'D' ]
+
+Notes: cannot move diagnoally
+
+Can only move:
+- Left
+- Right
+- Up
+- Down
+
+Can only count a value once.
+
+Algo to solve :
+- BFS
+- Queue: Once a letter matches, put in queue
+- Mark values I am putting in my queue ONLY, with *
+- Once I am at the end of the word length, finished
+
+TODO: Queue's purpose
+-If surrounding letters do not equal to next letter in word, popleft()
+
+from collection import deque
+
+("ABCCED")
+
+def word_search(board: list[list[str]], word:str) -> bool:
+    direction = {
+        "left": [0,-1],
+        "right": [0,1],
+        "up": [-1,0]
+        "down": [1,0]
+    }
+
+    queue = deque()
+    letter = word[0] # ("A")
+    for inner_list in board
+        for inner_letter in inner_list:
+            if letter == inner_letter:
+                inner_letter = "*"
+
+                while queue: #Start of BFS
+                #look left
+                #look right
+                #look up
+                #look down
+                #if not found, queue.popleft()
+
+
+
+    return False
+
+
+Feedback:
+- Keep talking even when stuck
+    - Why am I stuck?
