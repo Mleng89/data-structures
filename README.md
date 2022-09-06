@@ -1,6 +1,6 @@
 # My journey to understanding data structures and algorithms better! :file_folder:
 
-## Languages used: JavaScript & Python
+### Languages used: JavaScript & Python
 
 ## My todo list:
 
@@ -27,7 +27,7 @@
 -   [x] Integer to Roman
 -   [x] Palindrome Checker
 
-## Addition of various platform algorithms such as LC & Structy now. (Updated September 6,2022)
+### Addition of various platform algorithms such as LC & Structy now. (Updated September 6,2022)
 
 ## If you would like to run this repo on your machine:
 
