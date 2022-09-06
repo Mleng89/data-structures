@@ -1,5 +1,7 @@
 # My journey to understanding data structures and algorithms better! :file_folder:
 
+## Languages used: JavaScript & Python
+
 ## My todo list:
 
 -   [x] Linked Lists
