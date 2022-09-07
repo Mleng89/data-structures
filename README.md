@@ -45,7 +45,8 @@ Installing dependencies:
 
 Running the tests:
 
--   In order for you to run tests, you can enter `yarn test`!
+-   In order for you to run tests, you can enter `yarn/npm test` this will run jest on all test files.
+-   To run single test files, run `yarn/npm test -- [file name]`.
 
 ### You may also open an issue if you would like to have a discussion or if you have any feedback!
 
