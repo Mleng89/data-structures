@@ -1,4 +1,4 @@
-const romanToInt = require('../romanToInt');
+const romanToInt = require('../Integers/romanToInt');
 const { expect } = require('@jest/globals');
 
 test('romanToInt is a function', () => {

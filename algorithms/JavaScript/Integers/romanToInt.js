@@ -11,9 +11,9 @@ const romanToInt = function (s) {
 	let total = 0;
 	for (let i = 0; i < s.length; i++) {
 		let curr = roman[s[i]];
-		console.log('what is curr', curr);
+		// console.log('what is curr', curr);
 		let next = roman[s[i + 1]];
-		console.log('what is next', next);
+		// console.log('what is next', next);
 
 		if (next) {
 			if (curr >= next) {

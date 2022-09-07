@@ -1,4 +1,4 @@
-const intToRoman = require('../intToRoman');
+const intToRoman = require('../Integers/intToRoman');
 const { expect } = require('@jest/globals');
 
 test('intToRoman should be a function', () => {

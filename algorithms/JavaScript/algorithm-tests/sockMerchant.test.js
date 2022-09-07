@@ -1,4 +1,4 @@
-const sockMerchant = require('../sockMerchant');
+const sockMerchant = require('../Array/sockMerchant');
 const { expect } = require('@jest/globals');
 
 test('sockMerchant is a function', () => {

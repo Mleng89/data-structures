@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const twoSum = require('../twoSum');
+const twoSum = require('../Integers/twoSum');
 
 test('twoSum should be a function', () => {
 	let func = typeof twoSum === 'function';

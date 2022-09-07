@@ -1,4 +1,4 @@
-const canBeEqual = require('../canBeEqual');
+const canBeEqual = require('../Array/canBeEqual');
 const { expect } = require('@jest/globals');
 
 test('canBeEqual is a function', () => {

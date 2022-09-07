@@ -32,9 +32,9 @@ function minStepsToOne(n) {
 	}
 	return steps + 1;
 }
-console.time('RECURSION');
-console.log(minStepsToOne(14));
-console.timeEnd('RECURSION');
+// console.time('RECURSION');
+// console.log(minStepsToOne(14));
+// console.timeEnd('RECURSION');
 /*
 Memoization
 */
@@ -62,9 +62,9 @@ function minStepsToOneM(n) {
 	// console.log('what is in my memo', memo);
 	return memo[n];
 }
-console.time('MEMOIZATION');
-console.log(minStepsToOneM(100));
-console.timeEnd('MEMOIZATION');
+// console.time('MEMOIZATION');
+// console.log(minStepsToOneM(100));
+// console.timeEnd('MEMOIZATION');
 
 /*
 TABULATION
@@ -93,9 +93,9 @@ function minStepsToOneT(n) {
 	// console.log(result);
 	return result[n];
 }
-console.time('TABULATION');
-console.log(minStepsToOneT(1000));
-console.timeEnd('TABULATION');
+// console.time('TABULATION');
+// console.log(minStepsToOneT(1000));
+// console.timeEnd('TABULATION');
 
 module.exports = minStepsToOne;
 module.exports = minStepsToOneM;

@@ -1,5 +1,5 @@
-const fibonacci = require('../fibonacci');
-const fibonacciMemo = require('../fibonacci');
+const fibonacci = require('../Integers/fibonacci');
+const fibonacciMemo = require('../Integers/fibonacci');
 const { expect } = require('@jest/globals');
 
 test('fibonacci & fibonacciMemo are functions', () => {

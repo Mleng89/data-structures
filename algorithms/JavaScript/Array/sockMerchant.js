@@ -1,15 +1,15 @@
 /*
 HACKER RANK
 -----------
-There is a large pile of socks that must be paired by color. 
-Given an array of integers representing the color of each sock, 
+There is a large pile of socks that must be paired by color.
+Given an array of integers representing the color of each sock,
 determine how many pairs of socks with matching colors there are.
 
-Example: 
+Example:
 n = 7
 arr = [1,2,1,2,1,3,2]
 
-Output : 2 
+Output : 2
 
 */
 
@@ -31,7 +31,7 @@ function sockMerchant(n, arr) {
 			i++;
 		}
 	}
-	console.timeEnd('Comparsion Loop');
+	// console.timeEnd('Comparsion Loop');
 	//RETURN PAIRS
 	return pairs;
 }
@@ -52,7 +52,7 @@ function sockMerchantTwo(n, arr) {
 	for (let key in sockHash) {
 		pairs += Math.floor(sockHash[key] / 2);
 	}
-	console.timeEnd('HASH');
+	// console.timeEnd('HASH');
 	return pairs;
 }
 

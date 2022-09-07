@@ -1,6 +1,6 @@
-const minStepsToOne = require('../minStepsToOne');
-const minStepsToOneM = require('../minStepsToOne');
-const minStepsToOneT = require('../minStepsToOne');
+const minStepsToOne = require('../Integers/minStepsToOne');
+const minStepsToOneM = require('../Integers/minStepsToOne');
+const minStepsToOneT = require('../Integers/minStepsToOne');
 const { expect } = require('@jest/globals');
 
 test('minStepsToOne should be a function', () => {
