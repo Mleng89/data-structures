@@ -1,0 +1,15 @@
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/bin/Debug/net6.0/duplicateEncoder
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/bin/Debug/net6.0/duplicateEncoder.deps.json
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/bin/Debug/net6.0/duplicateEncoder.runtimeconfig.json
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/bin/Debug/net6.0/duplicateEncoder.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/bin/Debug/net6.0/duplicateEncoder.pdb
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.csproj.AssemblyReference.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.AssemblyInfoInputs.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.AssemblyInfo.cs
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.csproj.CoreCompileInputs.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/refint/duplicateEncoder.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.pdb
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/duplicateEncoder.genruntimeconfig.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/duplicateEncoder/obj/Debug/net6.0/ref/duplicateEncoder.dll
