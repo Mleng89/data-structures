@@ -50,6 +50,14 @@ Running the tests:
 
 ### You may also open an issue if you would like to have a discussion or if you have any feedback!
 
+### Notes to self on running C# with VSC:
+
+1. `dotnet --version` (to make sure dotnet is installed)
+2. `dotnet new console -o <name>` (to create C# project, can use other apps instead of console)
+3. `dotnet run` (execute code)
+4. `>.NET Generate Assets for Build and Debug` CMD -> Command Palette
+5. `dotnet build` (to compile code, will have exe or dll in /bin folder after.)
+
 ## Please feel free to connect with me:
 
 :link: [LinkedIn](https://www.linkedin.com/in/matthew-leng/) (Please add a note before you connect so I know you are not a bot!)
