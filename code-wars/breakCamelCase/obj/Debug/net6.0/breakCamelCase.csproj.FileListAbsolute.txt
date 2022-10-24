@@ -1,0 +1,15 @@
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/bin/Debug/net6.0/breakCamelCase
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/bin/Debug/net6.0/breakCamelCase.deps.json
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/bin/Debug/net6.0/breakCamelCase.runtimeconfig.json
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/bin/Debug/net6.0/breakCamelCase.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/bin/Debug/net6.0/breakCamelCase.pdb
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.csproj.AssemblyReference.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.AssemblyInfoInputs.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.AssemblyInfo.cs
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.csproj.CoreCompileInputs.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/refint/breakCamelCase.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.pdb
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/breakCamelCase.genruntimeconfig.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/breakCamelCase/obj/Debug/net6.0/ref/breakCamelCase.dll
