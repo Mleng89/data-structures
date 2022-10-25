@@ -54,7 +54,7 @@ Running the tests:
 
 1. `dotnet --version` (to make sure dotnet is installed)
 2. `dotnet new console -o <name>` (to create C# project, can use other apps instead of console)
-3. `dotnet run` (execute code)
+3. To execute console application code, user should be in designated folder. Then write `dotnet run` in terminal.
 4. `>.NET Generate Assets for Build and Debug` CMD -> Command Palette
 5. `dotnet build` (to compile code, will have exe or dll in /bin folder after.)
 
