@@ -1,0 +1,15 @@
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/bin/Debug/net6.0/exesAndOhs
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/bin/Debug/net6.0/exesAndOhs.deps.json
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/bin/Debug/net6.0/exesAndOhs.runtimeconfig.json
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/bin/Debug/net6.0/exesAndOhs.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/bin/Debug/net6.0/exesAndOhs.pdb
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.csproj.AssemblyReference.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.AssemblyInfoInputs.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.AssemblyInfo.cs
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.csproj.CoreCompileInputs.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/refint/exesAndOhs.dll
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.pdb
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/exesAndOhs.genruntimeconfig.cache
+/Users/mleng/Desktop/Dev/Projects/data-structures/code-wars/exesAndOhs/obj/Debug/net6.0/ref/exesAndOhs.dll
