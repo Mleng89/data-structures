@@ -29,6 +29,8 @@
 
 ### Addition of various platform algorithms such as LC & Structy now. (Updated September 6,2022)
 
+### Updating in 2025 - TypeScript being used to solve algorithms
+
 ## If you would like to run this repo on your machine:
 
 First you must clone the repo onto your machine:
